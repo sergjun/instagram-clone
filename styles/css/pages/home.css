@@ -57,6 +57,7 @@ header .action-icon {
   padding: 9px 10px;
   gap: 20px;
   overflow-x: auto;
+  scrollbar-width: thin;
 }
 .stories-container::-webkit-scrollbar {
   display: none;
