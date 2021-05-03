@@ -33,6 +33,7 @@ html {
 
 .Search-bar {
   display: flex;
+  position: relative;
 }
 
 .search-profile {
@@ -43,6 +44,14 @@ html {
   padding: 6px;
   margin: 8px;
   border: none;
+  padding-left: 29px;
+}
+
+.search-icon {
+  width: 13px;
+  position: absolute;
+  left: 16px;
+  top: 16px;
 }
 
 .action-icon {
@@ -54,7 +63,7 @@ html {
   display: flex;
   margin-bottom: 7px;
   overflow-x: auto;
-  scrollbar-width: thin;
+  scrollbar-width: none;
   gap: 6px;
 }
 .nav-bar::-webkit-scrollbar {
@@ -84,6 +93,10 @@ html {
   display: flex;
   margin-bottom: 0.96px;
   margin-right: 1px;
+}
+
+.photo-search {
+  width: 100%;
 }
 
 /*# sourceMappingURL=search.css.map */
