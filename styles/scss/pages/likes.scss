@@ -4,6 +4,8 @@
 {
     display: flex;
     justify-content: center;
+    border-bottom: $border-primary;
+    cursor: pointer;
    
    
 }
@@ -19,14 +21,19 @@
     font-weight: bold;
     width: 180px;
     height: 44px;
-    border-bottom: solid 1px black  ;
+    
      
 }
 
 .like-nav :first-child 
 {
     color: rgba(0, 0, 0, 0.4);
-    border-bottom: solid 1px rgba(0, 0, 0, 0.4);
+
+}
+
+.like-nav :nth-child(2)
+{
+    border-bottom: solid 1px black;
 }
 
 
@@ -35,5 +42,58 @@
     display: flex;
     align-items: center;
     width: 375px;
-    height: 48px;
+    height: 48px; 
+    padding-left: 16px;
+  
+
+    p 
+    {
+        font-size: 15px
+    }
 }
+
+.like-new
+
+{       padding-left: 16px;
+        padding-top: 16px;
+        border-top: $border-primary;
+        border-bottom: $border-primary;
+        
+    p 
+    {
+        font-weight: bold;
+        font-size: 15px;
+        
+    }
+    
+    .like-info
+    {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 21px;
+        padding-bottom: 8px;
+        
+        p {
+            font-weight: normal;
+        }
+        span 
+        {
+            color: rgba(0, 0, 0, 0.4);
+        }
+
+        .like-person
+        {   
+            box-sizing: border-box;
+            
+            padding-right: 12px;
+        }
+
+        .photo-liked
+        {
+            margin-left: auto;
+            margin-right: 16px;
+        }
+    }  
+}
+

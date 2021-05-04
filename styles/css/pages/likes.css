@@ -34,6 +34,8 @@ html {
 .like-nav {
   display: flex;
   justify-content: center;
+  border-bottom: solid 1px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
 }
 
 .likes-bar {
@@ -46,12 +48,14 @@ html {
   font-weight: bold;
   width: 180px;
   height: 44px;
-  border-bottom: solid 1px black;
 }
 
 .like-nav :first-child {
   color: rgba(0, 0, 0, 0.4);
-  border-bottom: solid 1px rgba(0, 0, 0, 0.4);
+}
+
+.like-nav :nth-child(2) {
+  border-bottom: solid 1px black;
 }
 
 .follow-request {
@@ -59,6 +63,42 @@ html {
   align-items: center;
   width: 375px;
   height: 48px;
+  padding-left: 16px;
+}
+.follow-request p {
+  font-size: 15px;
+}
+
+.like-new {
+  padding-left: 16px;
+  padding-top: 16px;
+  border-top: solid 1px rgba(0, 0, 0, 0.1);
+  border-bottom: solid 1px rgba(0, 0, 0, 0.1);
+}
+.like-new p {
+  font-weight: bold;
+  font-size: 15px;
+}
+.like-new .like-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 21px;
+  padding-bottom: 8px;
+}
+.like-new .like-info p {
+  font-weight: normal;
+}
+.like-new .like-info span {
+  color: rgba(0, 0, 0, 0.4);
+}
+.like-new .like-info .like-person {
+  box-sizing: border-box;
+  padding-right: 12px;
+}
+.like-new .like-info .photo-liked {
+  margin-left: auto;
+  margin-right: 16px;
 }
 
 /*# sourceMappingURL=likes.css.map */
