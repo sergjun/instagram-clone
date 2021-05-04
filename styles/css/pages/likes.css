@@ -101,4 +101,42 @@ html {
   margin-right: 16px;
 }
 
+.like-today {
+  padding-left: 16px;
+  padding-top: 16px;
+  border-top: solid 1px rgba(0, 0, 0, 0.1);
+  border-bottom: solid 1px rgba(0, 0, 0, 0.1);
+}
+.like-today p {
+  font-weight: bold;
+  font-size: 15px;
+  text-align: left;
+}
+.like-today .like-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 21px;
+  padding-bottom: 8px;
+}
+.like-today .like-info p {
+  font-weight: normal;
+}
+.like-today .like-info span {
+  color: rgba(0, 0, 0, 0.4);
+}
+.like-today .like-info .like-person1 {
+  box-sizing: border-box;
+  z-index: 1;
+}
+.like-today .like-info .like-person2 {
+  position: relative;
+  right: 45px;
+  bottom: 15px;
+}
+.like-today .like-info .photo-liked {
+  margin-left: auto;
+  margin-right: 16px;
+}
+
 /*# sourceMappingURL=likes.css.map */
