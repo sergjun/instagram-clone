@@ -30,6 +30,11 @@ html {
   padding: 0 26px;
   box-sizing: border-box;
 }
+@media (min-width: 768px) {
+  .tab-bar {
+    background-color: #fafafa;
+  }
+}
 
 .Search-bar {
   display: flex;
@@ -97,6 +102,35 @@ html {
 
 .photo-search {
   width: 100%;
+}
+
+@media (min-width: 700px) {
+  header {
+    display: flex;
+    justify-content: center;
+  }
+  header .action-icon {
+    width: 20px;
+  }
+
+  .nav-bar {
+    display: flex;
+    justify-content: center;
+  }
+
+  .search-photos {
+    display: flex;
+    justify-content: center;
+  }
+
+  .align-tab {
+    display: flex;
+    justify-content: center;
+  }
+
+  .tab-bar {
+    width: 35%;
+  }
 }
 
 /*# sourceMappingURL=search.css.map */

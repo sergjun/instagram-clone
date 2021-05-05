@@ -93,3 +93,43 @@
     width: 100%;
    
 }
+
+
+
+@media (min-width: $breakpoint-desktop)
+{
+    header{
+        display: flex;
+        justify-content: center;
+
+        .action-icon
+        {   
+            width: 20px;
+            
+        }
+    }
+
+    .nav-bar
+    {
+        display: flex;
+        justify-content: center;
+    }
+
+    .search-photos
+    {
+        display: flex;
+        justify-content: center;
+    }
+
+    .align-tab
+    {
+        display: flex;
+        justify-content: center;
+    }
+       
+
+    .tab-bar
+    {
+        width: 35%;
+    }
+}
