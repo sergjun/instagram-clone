@@ -16,6 +16,9 @@ header {
 
   @media (min-width: $breakpoint-tablet) {
     background-color: $background-primary;
+    display: flex;
+    justify-content: space-around;
+     
   }
 
   .logo-img {
@@ -254,3 +257,18 @@ main {
   }
 }
 
+@media (min-width: $breakpoint-desktop)
+{
+  .align-tab
+  {
+      display: flex;
+      justify-content: center;
+  }
+ 
+  .tab-bar
+  {
+      width: 73%;
+  }
+
+ 
+}
